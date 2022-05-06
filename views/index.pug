@@ -1,0 +1,71 @@
+extends layout
+
+block content
+  #dealerscore.b
+    |   dealer score
+
+  //- The deal Modal
+  #myModal.modal
+    //- Modal content
+    .modal-content
+      span.close &times;
+      p Would you like to play Black Jack?
+      button#deal.button.button1(type='button') Deal 
+
+  //- The player wins Modal
+  #myModal2.modal
+    //- Modal content
+    .modal2-content
+      span.close &times;
+      p Player Wins 
+      button#playagain.button.button4(type='button') Play Again
+
+      //- The player wins Modal
+  #myModal3.modal
+    //- Modal content
+    .modal2-content
+      span.close &times;
+      p Dealer Wins 
+      button#playagain2.button.button4(type='button') Play Again
+
+  //-img.topcenter(src='http://deckofcardsapi.com/static/img/KH.png' alt='C1' width='100' height='100')
+  .topcenter
+    img#d6(src='' width='160' height='120' style='opacity: 0')
+    img#d4(src='' width='160' height='120' style='opacity: 0')
+    img#d2(src='' width='160' height='120' style='opacity: 0')
+    img#d0(src="https://thumbs.dreamstime.com/b/playing-card-back-side-isolated-white-clipping-path-included-playing-card-back-side-isolated-white-172500899.jpg" width='160' height='120')
+    img#d1(src="https://thumbs.dreamstime.com/b/playing-card-back-side-isolated-white-clipping-path-included-playing-card-back-side-isolated-white-172500899.jpg" width='160' height='120')
+    img#d3(src='' width='160' height='120' style='opacity: 0')
+    img#d5(src='' width='160' height='120' style='opacity: 0')
+    img#d7(src='' width='160' height='120' style='opacity: 0')
+    img#d8(src='' width='160' height='120' style='opacity: 0')
+
+  .leftmid 
+    img#deck(src='https://thumbs.dreamstime.com/b/playing-card-back-side-isolated-white-clipping-path-included-playing-card-back-side-isolated-white-172500899.jpg' width='160' height='120')
+  
+  .botcenter
+    img#p6(src='' width='160' height='120' style='opacity: 0')
+    img#p4(src='' width='160' height='120' style='opacity: 0')
+    img#p2(src='' width='160' height='120' style='opacity: 0')
+    img#p0(src="https://thumbs.dreamstime.com/b/playing-card-back-side-isolated-white-clipping-path-included-playing-card-back-side-isolated-white-172500899.jpg" width='160' height='120')
+    img#p1(src="https://thumbs.dreamstime.com/b/playing-card-back-side-isolated-white-clipping-path-included-playing-card-back-side-isolated-white-172500899.jpg" width='160' height='120')
+    img#p3(src='' width='160' height='120' style='opacity: 0')
+    img#p5(src='' width='160' height='120' style='opacity: 0')
+    img#p7(src='' width='160' height='120' style='opacity: 0')
+    img#p8(src='' width='160' height='120' style='opacity: 0')
+  
+  #playerscore.a
+    |   player score
+
+
+  button#hitme.button.button2(type='button') Hit me
+    
+  button#stay.button.button3(type='button') Stay 
+
+  
+
+  
+    
+
+
+

@@ -1,0 +1,96 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: green;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/*for the player score*/
+div.a{
+  text-align: center;
+  vertical-align: bottom;
+  font-size: 32px;
+}
+
+/*for the dealer score*/
+div.b{
+  text-align: center;
+  vertical-align: top;
+  font-size: 32px;
+}
+
+/*for the dealers hand*/
+div.topcenter {
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*for the player hand*/
+div.botcenter {
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0%;
+  margin-top: 12%;
+}
+
+/*for the deck*/
+div.leftmid {
+  display: block;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: auto;
+  margin-top: 10%;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #008CBA;} /* Blue */
+.button2 {background-color: #4CAF50;} /* green */ 
+.button3 {background-color: #f44336;} /* red */ 
+.button4 {background-color: #555555;} /* Black */
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Modal Content/Box */
+.modal2-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
