@@ -1,0 +1,41 @@
+.title{
+  
+  font-size: 40px;
+  text-align: center;
+}
+
+.inval{
+  text-align: center;
+  font-size: 30px;
+}
+
+.form{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  font-size: 30px;
+  text-align: center;
+}
+
+.input{
+    width: 30%;
+}
+
+.button1{
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  width: 20%;
+  padding: 10px;
+  font-size: 20px;
+  background-color: green;
+}
+
+.button2{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 20%;
+  padding: 10px;
+  font-size: 20px;
+  background-color: blue;
+}
